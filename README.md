@@ -2,6 +2,9 @@
 
 > ✨ Bootstrapped with Create Snowpack App (CSA).
 
+Made modifications to the template @snowpack/app-template-svelte-typescript
+Added post css and tailwind
+
 ## Available Scripts
 
 ### npm start
