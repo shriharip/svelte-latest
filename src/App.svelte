@@ -1,5 +1,7 @@
 <script>
+	import '../src/main.css';
 	import {onMount} from 'svelte';
+
 	let count: number = 0;
 	onMount(() => {
 	  const interval = setInterval(() => count++, 1000);
@@ -58,10 +60,10 @@
   <div class="App">
 	<header class="App-header">
 	  <img src="/logo.svg" class="App-logo" alt="logo" />
-	  <p>Edit <code>src/App.svelte</code> and save to reload.</p>
+	  <p class="uppercase">Edit <code>src/App.svelte</code> and save to reload.</p>
 	  <p>Page has been open for <code>{count}</code> seconds.</p>
 	  <p>
-		<a class="App-link" href="https://svelte.dev" target="_blank" rel="noopener noreferrer">
+		<a class="App-link px-5 bg-green-300 box" href="https://svelte.dev" target="_blank" rel="noopener noreferrer">
 		  Learn Svelte
 		</a>
 	  </p>

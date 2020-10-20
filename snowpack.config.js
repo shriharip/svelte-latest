@@ -6,6 +6,7 @@ module.exports = {
   plugins: [
     '@snowpack/plugin-svelte',
     '@snowpack/plugin-dotenv',
+    "@snowpack/plugin-postcss",
     '@snowpack/plugin-typescript',
     [
       '@snowpack/plugin-run-script',
